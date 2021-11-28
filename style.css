@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Play&family=Shippori+Antique+B1&family=Work+Sans&family=Yanone+Kaffeesatz&display=swap');
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#top-menu{	
+	background: #ea1d2c;
+	
+}
+#logo{
+	text-align: center;
+}
+.services-hamburguer{
+	margin-top: 50px;
+	display: flex;
+	list-style: none;
+	margin-left: 120px;
+}
+.services-hamburguer li{
+	padding: 40px;
+
+
+}
+a{
+	text-decoration: none;
+	 color:inherit;
+}
+.service-title{
+	font-family: 'Shippori Antique B1', sans-serif;
+	font-size: 20px;
+ 	margin-left: 25px;
+ 	font-weight: bold;
+ 	color: #ea1d2c;
+}
+.price-d{
+	color: grey;
+	font-family: 'Work Sans', sans-serif;
+	text-decoration: line-through;
+	margin-left: 25px;
+}
+.price{
+	
+	font-family: 'Work Sans', sans-serif;
+	margin-left: 23px;
+	font-size: 25px;
+	font-weight: bold;
+}
+#rodape{
+	display: flex;
+	list-style: none;
+	margin-left: 450px;
+	background: #ea1d2c;
+	margin-top: 50px;	
+}
+#rodape li{
+
+}
+footer{
+	background: #ea1d2c;
+}
+#title{
+	background: -webkit-linear-gradient(#E9ED33, #ea1d2c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-family: 'Shippori Antique B1', sans-serif;
+	font-size: 50px;
+	margin-top: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#campos{
+	background: white;
+	width: 500px;
+	border-radius: 30px 20px;
+}
+h1{
+	font-family: 'Ubuntu', sans-serif;
+}
+form {
+	margin-top: 50px;
+	margin-left: 405px;	
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	color: #ea1d2c;
+	margin-bottom: 50px;
+}
+
+form div{
+	padding: 25px;
+}
+#telefone{
+	margin-right: 5px;
+}
+#payment{
+	margin-left: 120px;
+}
+#body-form{
+	background: rgb(234,29,44);
+background: linear-gradient(180deg, rgba(234,29,44,1) 28%, rgba(2,0,36,1) 100%);
+}
+#finish{
+	margin-top: 20px;
+	height: 50px;
+	width: 100px;
+	font-family: 'Shippori Antique B1', sans-serif;	
+	font-weight: bold;
+	margin-left: 25px;
+
+}
+#pagamento{
+	text-align: center;
+	margin-top: 25px;
+	margin-right: 8px;
+}
+#pay{
+	margin-left: 35px;
+}
+#password{
+	background: white;
+	border-radius: 30px 20px;
+	margin-top: 25px;
+	width: 500px;
+}
+#finalizar-login{
+	margin-top: 20px;
+	height: 50px;
+	width: 100px;
+	font-family: 'Shippori Antique B1', sans-serif;	
+	font-weight: bold;
+	margin-left: 200px;
+}
+#login{
+	height: 50px;
+	width: 120px;
+	font-family: 'Shippori Antique B1', sans-serif;	
+	font-weight: bold;
+	margin-left: 622px;
+}
+
+
+
+
+

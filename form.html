@@ -1,0 +1,62 @@
+<html>
+
+<head>
+		<html lang="pt-br">
+	<title> Finalizar Pedido </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="body-form">
+
+<div id="top-menu">
+
+	<p id="logo"><img src="images/logo.png" width="150"> </p>
+
+
+</div>
+<form>
+<div id="campos">
+<div id="endereco">
+	<label for="username"> Informe o seu endereço: </label>
+	<input type="text" name="endereco" class="campo" placeholder="Rua das Palmeiras, Nº123" required>
+</div>
+
+<div id="telefone">
+	<label for="phone">Informe o seu telefone:</label>
+  <input type="tel" id="phone" name="phone" placeholder="Ex: 14 988051774" maxlength="12">
+</div>
+<div>
+	<label for="username"> Informe o seu e-mail: </label>
+	<input type="text" name="email" class="campo" placeholder="email@gmail.com" required>
+</div>
+<div>
+	<label for="username"> Informe o seu CPF (Opcional): </label>
+	<input type="text" name="cpf" class="campo" placeholder="480.480.860-42">
+</div>
+
+<p id="pagamento"> Informe o método de pagamento. </p>
+
+<div id="payment" required>
+<select name="payment" id="pay">
+	
+		<option value="debito"> Cartão de Débito
+		<option value="credito"> Cartão de Crédito
+		<option value="a-vista"> Á Vista
+		<option value="pix"> Pix
+	</select>
+    <div id="finalizar">
+  <input type="submit" value="Finalizar" id="finish">
+
+  </div>
+</div>
+</div>
+
+
+</form>
+
+
+
+</body>
+
+</html>
